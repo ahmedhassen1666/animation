@@ -1,0 +1,110 @@
+body{
+    background-color: aquamarine;
+}
+.animation1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 0;
+    animation-name: change1;
+     /* animation-delay: 3s;  */
+    animation-duration: 3s;
+ animation-fill-mode:forwards;
+}
+.animation3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: yellow;
+    top: 200PX;
+    animation-name: change3;
+     animation-delay: 6s; 
+    animation-duration: 3s;
+ animation-fill-mode:forwards;
+}
+.animation5{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    top: 400PX;
+    animation-name: change5;
+     animation-delay: 12s; 
+    animation-duration: 3s;
+ animation-fill-mode:forwards;
+}
+@keyframes change1{
+    0% {
+       margin-left: 0;
+     
+      }
+    100% {
+        margin-left: 92.5%;
+      }
+}
+@keyframes change3{
+    0% {
+       margin-left: 0;
+     
+      }
+    100% {
+        margin-left: 92.5%;
+      }
+}
+@keyframes change5{
+    0% {
+       margin-left: 0;
+     
+      }
+    100% {
+        margin-left: 92.5%;
+      }
+}
+.animation2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 100PX;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 3s; 
+    
+    animation-fill-mode:forwards;
+}
+.animation4{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    top: 300PX;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 9s; 
+    
+    animation-fill-mode:forwards;
+}
+.animation6{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 500PX;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 15s; 
+    
+    animation-fill-mode:forwards;
+}
+@keyframes change2{
+    0% {
+       margin-right: 0;
+      }
+    100% {
+        margin-right: 92.5%;
+      }
+}
